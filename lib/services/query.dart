@@ -16,7 +16,7 @@ class Query {
     return false;
   }
  
-  //User Name Exist Function
+  //User Name Exist Functions
   Future<bool> isUserNameExist(String name) async {
     var res = await getUserData(name);
     if (res == null) {
